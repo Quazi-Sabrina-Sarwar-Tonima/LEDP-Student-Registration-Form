@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    height: 90px;
+    width: 80vw;
+    margin: auto;
+}
+
+.mujib{
+    width: 120px;
+    float: right;
+}
+.learning{
+    width: 200px;
+    margin-left: 32vw;
+}
+.ict {
+    width: 120px;
+    position: absolute;
+    margin-top: 10px;
+    float: left;
+}
+.navigation{
+    position: absolute;
+    width: 80vw;
+    height: 40px;
+    background-color: rgb(249, 249, 249);
+    top: 85px;
+    border-top: 1px solid rgb(221, 220, 220);
+    border-bottom: 1px solid rgb(221, 220, 220);
+}
+.navigation-table{
+    width: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(87, 86, 86);
+}
+table{
+    border-collapse: collapse;
+}
+.data {
+    height: 40px;
+    text-align:center;
+    padding:16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+
+}
+.attendance-btn-content a{
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+}
+.attendance-btn-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+.attendance-btn-content a:hover {background-color: #f1f1f1}
+
+.attendance-btn:hover .attendance-btn-content{
+    display: block;
+    position: absolute;
+    margin-top: 7px;
+    margin-left: -12px;
+}
+.data:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+
+}
+.attendance-btn:hover{
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
+.td-box{
+    background-color: #ebebeb; 
+    width: 60px;
+    height: 40px;
+    
+}
+.form{
+    
+    width: 80vw;
+    margin-left: 10vw;
+    /* background-color: aquamarine; */
+    height: 500px;
+    position: absolute;
+    top: 150px;
+
+}
+.form-heading{
+    color: orange;
+    padding: 10px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    font-size: 20px;
+}
+.straight-line{
+    height: 2px;
+    background-color: #d9d9d9;
+
+}
+.form-sub-heading{
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    padding: 10px;
+    padding-right: 0;
+    display: inline-block;
+}
+.dashed-line{
+    height: 7px;
+    width: 60vw;
+    display: inline-block;
+    margin-left: -5px;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-top: 1px solid #adadad;
+    border-style: dashed;
+    /* border-style: dashed; */
+}
+.small-tag{
+    padding: 10px;
+    color: #838282;
+    font-size: 12px;
+}
+
+.make-form{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    padding: 10px;
+    color: #838282;
+}
+
+.left-part{
+    width: 40vw;
+    display: inline-block;
+}
+select#District, select#course,input#name, input#father_name, input#mother_name, input#email, input#phone_no, select#id,
+input#text, select#home-dis, select#upazila, input#address, input#post-off, select#educational-qualification{
+    width: 35vw;
+    height: 30px;
+    font-size: 16px;
+    color: #838282;
+    padding-left: 7px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.birth-date-box{
+    width: 35vw;
+    height: 90px;
+    margin-top: 10px;
+    border: 1px solid #838282;
+    border-top: 1px transparent;
+
+}
+.straight-line-1{
+    height: 0.5px;
+    width: 2vw;
+    background-color: #838282;
+}
+.straight-line-2{
+    height: 0.5px;
+    width: 26vw;
+    background-color: #838282;
+    float: right;
+    margin-top: -1vw;
+}
+h4{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    color: #838282;
+    margin-left: 2vw;
+    margin-top: -0.5vw;
+
+}
+  
+select#day, select#month, select#year{
+    width: 11vw;
+    height: 30px;
+    font-size: 16px;
+    color: #838282;
+    font-weight: 400;
+}
+
+.day{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.month{
+    display: inline-block;
+    margin-left: -4px;
+    border-left: transparent;
+}
+.year{
+    
+    display: inline-block;
+    margin-left: -4px;
+    border-left: transparent;
+
+}
+.values{
+    font-weight: 600;
+    display: inline;
+}
+.gender-label, .physical-label{
+    display: inline;
+    margin-right: 20px;
+}
+p{
+    font-size: 14px;
+}
+.gender, .physical{
+    margin-top: 10px;
+}
+.email{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+.middle-line{
+    width: 1px;
+    background-color: #d0d0d0;
+    height: 125%;
+    display: inline-block;
+    position: absolute;
+    top: 17vh;
+    
+
+}
+.right-part{
+    width: 39vw;
+    display: inline-block;
+    position: absolute;
+    top: 17vh;
+    margin-left: 2vw;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    padding: 10px;
+    color: #838282;
+}
+.question{
+    display: inline;
+}
+.photograph{
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+input#myphotograph, input#mysignature{
+    font-size: 16px;
+
+}
+.submit-button{
+    margin-top: 15px;
+}
+button#submit{
+    font-size: 20px;
+    padding: 7px 10px 7px 10px;
+    color: #747373;
+    font-weight: 300;
+    cursor: pointer;
+
+}
